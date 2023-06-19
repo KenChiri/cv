@@ -4,7 +4,7 @@ body {
     max-width: 960px;
     margin: auto;
     background-color:rgb(174, 232, 213);
-    border: 2px solid rgb(11, 108, 125);
+    border:6px double rgb(11, 108, 125);
     border-radius: 2px;
     
 }
