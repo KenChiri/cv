@@ -95,7 +95,7 @@ th {
 table {
     border-color: rgb(24, 252, 176);
     border-style: outset;
-    padding: 1px;
+    padding: 6px;
 }
 a {
     text-decoration: none;
@@ -112,3 +112,4 @@ a:hover {
     background-color: rgb(5, 135, 164);
     color: rgb(0, 242, 255);
 }
+
