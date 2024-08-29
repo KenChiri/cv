@@ -1,0 +1,43 @@
+[33mcommit 58480cec453b1ae9237c5141a679c2aa269fb095[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: dkangogo <dkangogo@kabarak.ac.ke>
+Date:   Mon Dec 18 11:06:17 2023 +0300
+
+    added institution
+
+[33mcommit 1b7c9c952691b86f74bb403848c2e99681993c76[m
+Merge: e8a3a2c 3d5f8e1
+Author: dkangogo <dkangogo@kabarak.ac.ke>
+Date:   Mon Dec 18 10:58:27 2023 +0300
+
+    Merge branch 'main' of https://github.com/KenChiri/cv
+
+[33mcommit e8a3a2ceb8a6e8f4fbf3bbfe7d0bf5feb50bba3e[m
+Author: dkangogo <dkangogo@kabarak.ac.ke>
+Date:   Mon Dec 18 10:58:21 2023 +0300
+
+    final change
+
+[33mcommit 86bcc958ce1e1c6d3ec8f71b0cdff0da48e7b0c5[m
+Author: dkangogo <dkangogo@kabarak.ac.ke>
+Date:   Mon Dec 18 10:54:21 2023 +0300
+
+    Added a new field
+
+[33mcommit 3d5f8e1fa8e991096c0d8a4bd3b8d6cc5e614781[m
+Author: Kenneth <124718625+KenChiri@users.noreply.github.com>
+Date:   Mon Jun 19 11:50:18 2023 +0300
+
+    ci: add Azure Static Web Apps workflow file
+    on-behalf-of: @Azure opensource@microsoft.com
+
+[33mcommit f49ced1c249123bb9b060727cc0dd846ce47deda[m[33m ([m[1;32mnew-changes[m[33m)[m
+Author: kennethk@kabarak.ac.ke <124718625+KenChiri@users.noreply.github.com>
+Date:   Mon Jun 19 11:36:18 2023 +0300
+
+    My final tweaks on the border
+
+[33mcommit 453cb25458fdedb07b7c208a73418bfd751f801c[m
+Author: kennethk@kabarak.ac.ke <124718625+KenChiri@users.noreply.github.com>
+Date:   Mon Jun 19 11:26:45 2023 +0300
+
+    First commint of my cv
