@@ -1,0 +1,202 @@
+
+:root {
+    --primary-color: #1e2d3c;
+    --secondary-color: #0099ff;
+    --text-color: #feffff;
+    --secondary-text-color: rgb(19, 17, 17);
+    --light-gray: #e6e6e7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+}
+
+.header {
+    text-align: left;
+    padding: 2rem 0rem;
+    width: 100%;
+
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(244, 228, 2);
+    margin-bottom: 0.5rem;
+}
+
+.header .title {
+    font-size: 1.0rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    letter-spacing: 0.2cap;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 2rem;
+}
+
+.sidebar {
+    background: var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 10px 0px 0px 10px;
+}
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+    border: 3px solid var(--light-gray);
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.sidebar .section-title {
+    color: rgb(244, 228, 2);
+    font-size: 1.25rem;
+    list-style-type: disc;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--light-gray);
+    background: none;
+    font-weight: 700;
+    letter-spacing: 0.2cap;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+.main .section-title {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    list-style-type: disc;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    background: none;
+    font-weight: 700;
+    letter-spacing: 0.2cap;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.contact-info {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    padding: 1.0rem;
+}
+
+.contact-info i {
+    width: 20px;
+    color: var(--text-color);
+}
+.contact-info a{
+    color: var(--text-color);
+}
+.contact-info a:hover {
+    background-color: yellow;
+    font-family: 'JetBrains Mono', monospace;;
+}
+.skills {
+    list-style-type: square;
+    padding: 2rem;
+}
+
+.skills-list {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.skill-category {
+    font-weight: 640;
+    color: var(--text-color);
+    list-style-type: georgian;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2cap;
+
+}
+
+.skill-items {
+    color: rgb(198, 199, 158);
+    margin-left: 1rem;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    font-size: 1.1rem;
+}
+
+.experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.experience-title {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.experience-company {
+    color: var(--secondary-color);
+}
+
+.experience-period {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.experience-duties {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+}
+
+.education-item {
+    margin-bottom: 1rem;
+}
+
+.main {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background-color: rgb(234, 230, 230);
+    border-radius: 0px 10px 10px 0px;
+    padding: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    body {
+        padding: 1rem;
+    }
+}
