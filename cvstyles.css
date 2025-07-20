@@ -1,202 +1,284 @@
-
 :root {
-    --primary-color: #1e2d3c;
-    --secondary-color: #0099ff;
-    --text-color: #feffff;
-    --secondary-text-color: rgb(19, 17, 17);
-    --light-gray: #e6e6e7;
+  --primary-color: #3a3b3c;
+  --secondary-color: #0d4a14;
+  --text-color: #ffffff;
+  --secondary-text-color: rgb(19, 17, 17);
+  --light-gray: #f8f4f4;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    line-height: 1.6;
-    color: var(--text-color);
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 2rem;
-    background: white;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
 }
 
 .header {
-    text-align: left;
-    padding: 2rem 0rem;
-    width: 100%;
-
+  text-align: left;
+  padding: 2rem 0rem;
+  width: 100%;
 }
 
 .header h1 {
-    font-size: 2.5rem;
-    font-family: 'JetBrains Mono', monospace;
-    color: rgb(244, 228, 2);
-    margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-family: "JetBrains Mono", monospace;
+  color: rgb(244, 228, 2);
+  margin-bottom: 0.5rem;
 }
 
 .header .title {
-    font-size: 1.0rem;
-    color: var(--text-color);
-    margin-bottom: 1rem;
-    letter-spacing: 0.2cap;
-    font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  letter-spacing: 0.2cap;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .main-content {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin-top: 2rem;
 }
 
 .sidebar {
-    background: var(--primary-color);
-    padding: 1.5rem;
-    border-radius: 10px 0px 0px 10px;
+  background: var(--primary-color);
+  padding: 1.5rem;
+  border-radius: 10px 0px 0px 10px;
 }
 .pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    margin-bottom: 1.5rem;
-    object-fit: cover;
-    border: 3px solid var(--light-gray);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+  border: 3px solid var(--light-gray);
 }
 
 .section {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .sidebar .section-title {
-    color: rgb(244, 228, 2);
-    font-size: 1.25rem;
-    list-style-type: disc;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--light-gray);
-    background: none;
-    font-weight: 700;
-    letter-spacing: 0.2cap;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: rgb(244, 228, 2);
+  font-size: 1.25rem;
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  padding-bottom: 0.1rem;
+  border-bottom: 2px solid yellow;
+  background: none;
+  font-weight: 700;
+  letter-spacing: 0.2cap;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 .main .section-title {
-    color: var(--primary-color);
-    font-size: 1.25rem;
-    list-style-type: disc;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--primary-color);
-    background: none;
-    font-weight: 700;
-    letter-spacing: 0.2cap;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  padding-bottom: 0.1rem;
+  border-bottom: 2px solid var(--primary-color);
+  background: none;
+  font-weight: 700;
+  letter-spacing: 0.2cap;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 
 .contact-info {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-    padding: 1.0rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.contact-info li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 
 .contact-info i {
-    width: 20px;
-    color: var(--text-color);
+  width: 20px;
+  color: var(--text-color);
 }
-.contact-info a{
-    color: var(--text-color);
+.contact-info a {
+  color: var(--text-color);
 }
 .contact-info a:hover {
-    background-color: yellow;
-    font-family: 'JetBrains Mono', monospace;;
+  color: yellow;
 }
 .skills {
-    list-style-type: square;
-    padding: 2rem;
+  list-style-type: square;
+  padding: 2rem;
 }
 
 .skills-list {
-    display: grid;
-    gap: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
 }
 
 .skill-category {
-    font-weight: 640;
-    color: var(--text-color);
-    list-style-type: georgian;
-    margin-top: 0.5rem;
-    letter-spacing: 0.2cap;
-
+  font-weight: 640;
+  color: var(--text-color);
+  list-style-type: georgian;
+  margin-top: 0.5rem;
+  letter-spacing: 0.2cap;
 }
 
 .skill-items {
-    color: rgb(198, 199, 158);
-    margin-left: 1rem;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    font-size: 1.1rem;
+  color: rgb(224, 221, 221);
+  margin-left: 1rem;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-size: 1.1rem;
+}
+
+/* Timeline Styles */
+.timeline {
+  position: relative;
+  padding-left: 28px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  bottom: 280px;
+  width: 2px;
+  background: var(--primary-color);
 }
 
 .experience-item {
-    margin-bottom: 1.5rem;
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 20px;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  left: -23px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--secondary-color);
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.experience-item:last-child::after {
+  content: "";
+  position: absolute;
+  left: -31px;
+  bottom: -30px;
+  width: 2px;
+  height: 30px;
+  background: transparent;
 }
 
 .experience-title {
-    font-weight: 600;
-    color: var(--primary-color);
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
 }
 
 .experience-company {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
 }
 
 .experience-period {
-    font-size: 0.9rem;
-    color: #666;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-style: italic;
 }
 
 .experience-duties {
-    margin-top: 0.5rem;
-    padding-left: 1.2rem;
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.experience-duties li {
+  margin-bottom: 0.3rem;
+  color: #333;
 }
 
 .education-item {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .main {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background-color: rgb(234, 230, 230);
-    border-radius: 0px 10px 10px 0px;
-    padding: 2rem;
-    color: black;
-    font-size: 1.2rem;
-    font-weight: 450;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background-color: var(--light-gray);
+  border-radius: 0px 10px 10px 0px;
+  padding: 2rem;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 450;
 }
 
-
 a {
-    color: var(--secondary-color);
-    text-decoration: none;
-    transition: color 0.3s;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 a:hover {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
-    .main-content {
-        grid-template-columns: 1fr;
-    }
-    
-    body {
-        padding: 1rem;
-    }
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .main {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  body {
+    padding: 1rem;
+  }
+
+  .timeline {
+    padding-left: 25px;
+  }
+
+  .experience-item {
+    padding-left: 15px;
+  }
+}
+
+.prof-skills {
+  list-style-type: none;
+  display: grid;
+  padding: 2rem;
+}
+.p-skills {
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
 }
