@@ -45,7 +45,7 @@ body {
 
 .main-content {
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 300px 700px;
   margin-top: 2rem;
 }
 
@@ -157,7 +157,7 @@ body {
   position: absolute;
   left: 15px;
   top: 8px;
-  bottom: 180px;
+  bottom: 200px;
   width: 2px;
   background: var(--primary-color);
 }
@@ -233,7 +233,6 @@ body {
   color: black;
   font-size: 1.2rem;
   font-weight: 450;
-  width: 800px;
 }
 
 a {
